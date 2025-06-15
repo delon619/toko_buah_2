@@ -1,0 +1,493 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    width: 100%;
+    height: auto;
+}
+
+.nav-information{
+    width: 100%;
+    height: 48px;
+    background-color: #6B53AA;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-information .nav-text{
+    color: #FFEF63;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: #533B92;
+    padding: 0 24px;
+    line-height: 48px;
+    border-bottom-right-radius: 30px;
+}
+
+.nav-information .nav-contact{
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.nav-menu{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-menu .logo{
+    width: 139px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu .logo img{
+    width: 139px;
+    height: 61px;
+}
+
+.nav-menu .wrap-search{
+    width: 606px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu .wrap-search .search{
+    display: flex;
+    background-color: #F3F3F3;
+    width: 606px;
+    height: 48px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.nav-menu .wrap-search .search select{
+    width: 25%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 16px;
+    margin-right: 16px;
+}
+
+.nav-menu .wrap-search .separator{
+    width: 1px;
+    height: 30px;
+    background-color: #DFDFDF;
+}
+
+.nav-menu .wrap-search .search input{
+    background-color: transparent;
+    width: 67%;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+}
+
+.nav-menu .wrap-search .search button{
+    border: none;
+}
+
+.nav-menu .wrap-menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 27px;
+    align-items: center;
+    height: 100%;
+
+}
+
+.nav-menu .wrap-menu .list-menu{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-menu .wrap-menu .list-menu .badge{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    background-color: #533B92;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 0;
+    right: -6px;
+    top: -3px;
+}
+
+.nav-menu .wrap-menu .list-menu-text .soft{
+    color: #9C9C9C;
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+}
+
+.nav-menu .wrap-menu .list-menu-text .bold{
+    color: #424242;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding-top: 60px;
+}
+
+.main .text .title{
+    padding: 8px 16px;
+    background-color: #E2DCF2;
+    width: 133px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.main .text .slogan{
+    width: 500px;
+    height: 88PX;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 12px;
+}
+
+.main .text .slogan span{
+    color: #533B92;
+}
+
+.main .text .desc{
+    margin-top: 40px;
+    width: 500px;
+    height: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242CC;
+}
+
+.main .text button{
+    width: 180px;
+    height: 54px;
+    background-color: #6B53AA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .text button span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;    
+    padding-left: 22px;
+}
+
+.main .text button .vektor{
+    width: 54px ;
+    height: 54px;
+    display: flex;
+    background-color: #533B92;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .text button .vektor img{
+    width: 20px;
+    height: 14px;
+}
+
+.main .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category{
+    width: 100%;
+    height: auto;
+}
+
+.category .text1,
+.products .text1{
+    width: 247px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.category .text2 button,
+.products .text2 button{
+    width: 167px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #533B92;
+    border: none;
+    background-color: transparent;
+}
+
+.category .isi-category{
+    width: 288px;
+    height: 202px;
+    background-color: #FAFAFA;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.category .isi-category .soft{
+    font-size: 16px;
+    font-weight: 600;
+    color: #424242;
+    display: block;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.category .isi-category .bold{
+    font-size: 20px;
+    font-weight: 800;
+    color: #424242;
+    padding-left: 24px;
+}
+
+.category .isi-category img{
+    position: absolute;
+    width: 157px;
+    height: 133px;
+    right: 0;
+    bottom: 0;
+}
+
+.products .isi-product{
+    width: 288px;
+    height: 379px;
+    margin-bottom: 32px;
+}
+
+.products .isi-product .image{
+    width: 288px;
+    height: 255px;   
+    position: relative;
+}
+
+.products .isi-product .image .likes{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.products .isi-product .image .likes button{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.products .isi-product .image .promo{
+    padding: 8px 16px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #F34949;
+    border-radius: 50px;
+    color: white;
+    left: 14px;
+    top: 14px;
+}
+
+.products .isi-product .soft{
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #9C9C9C;
+    display: block;
+}
+
+.products .isi-product .bold{
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.products .isi-product .prices{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.products .isi-product .prices .price{
+    width: 22%;
+    font-weight: 800;
+    font-size: 20px;
+    color: #533B92;
+}
+
+.products .isi-product .prices .disc{
+    width: 62%;
+    font-weight: 600;
+    font-size: 14px;
+    color: #9C9C9C;
+    text-decoration: line-through;
+}
+
+.products .isi-product .prices button{
+    border: none;
+    background-color: transparent;
+}
+
+.products .slides{
+    width: 362px;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 80px;
+}
+
+.products .slides .pages{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-1{
+    width: 100%;
+    height: 172px;
+    background-color: #6B53AA;
+    display: flex;
+    align-items: center;
+}
+
+.footer-1 .isi-footer{
+    width: 288px;
+    height: 68px;
+    display: flex;
+    color: white;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-1 .isi-footer .image{
+    width: 68px;
+    height: 68px;
+    background-color: #533B92;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1 .isi-footer .bold{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.footer-1 .isi-footer .soft{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-2{
+    width: 100%;
+    height: 352px;
+    background-color: #533B92;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-2 .isi-footer{
+    width: 260px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.footer-2 .isi-footer .title{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-2 .isi-footer .menu{
+    line-height: 32px;
+}
+
+.footer-2 .isi-footer .menu p{
+    cursor: pointer;
+}
+
+.footer-2 .isi-footer .menu .phone,
+.footer-2 .isi-footer .menu .email,
+.footer-2 .isi-footer .menu .maps{
+    margin-bottom: 20px;
+}
+
+
+.footer-2 .isi-footer .menu .phone span,
+.footer-2 .isi-footer .menu .email span{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.footer-2 .isi-footer .menu .maps{
+    display: flex;
+    line-height: 20px;
+    width: 260px;
+    justify-content: center;
+    align-items: start;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.footer-2 .isi-footer .sosmed{
+    margin-top: 24px;
+    gap: 12px;
+}
+
+.footer-2 .isi-footer .sosmed button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #6B53AA;
+    border: none;
+}
+
+.footer-3{
+    width: 100%;
+    height: 72px;
+    background-color: #391F7B;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 72px;
+}
