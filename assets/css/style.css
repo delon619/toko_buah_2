@@ -190,6 +190,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
 }
 
 .main .text button span{
@@ -280,12 +281,18 @@ nav{
     width: 288px;
     height: 379px;
     margin-bottom: 32px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
 }
 
 .products .isi-product .image{
     width: 288px;
     height: 255px;   
     position: relative;
+}
+
+.products .isi-product .image img :nth-child{
+    width: 100%;
+    height: 100%;
 }
 
 .products .isi-product .image .likes{
@@ -295,24 +302,40 @@ nav{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
 }
 
-.products .isi-product .image .likes button{
+.products .isi-product .image .add{
+    padding-left: 10px;
+    width: 288px;
+    height: 30%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products .isi-product .image .add button{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: black;
     border: none;
+    position: relative;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
 }
 
 .products .isi-product .image .promo{
     padding: 8px 16px;
-    position: absolute;
+    position: relative;
     font-size: 14px;
     font-weight: 700;
     background-color: #F34949;
     border-radius: 50px;
     color: white;
-    left: 14px;
-    top: 14px;
+    
 }
 
 .products .isi-product .soft{
@@ -333,6 +356,9 @@ nav{
     margin-top: 10px;
     display: flex;
     align-items: center;
+    position: absolute;
+    width: 288px;
+    height: 10%;
 }
 
 .products .isi-product .prices .price{
@@ -491,3 +517,4 @@ nav{
     justify-content: center;
     line-height: 72px;
 }
+
